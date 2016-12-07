@@ -2,9 +2,88 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <meta name="author" content="Jefferson">
+    <meta name="description" content="hoja de vida">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Prueba final curso html</title>
   </head>
   <body>
-
+    <header>
+        <svg width="500px"  viewBox="10 40 200 80">
+          <image width="100px" height="200px" xlink:href="D:/CHECHO/Desarrollos  web/Prueba Final/images/logo.svg"></image>
+          <h1>
+            Hoja de Vida
+          </h1>
+        </svg>
+        <h2> Jefferson David</h2>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="D:/CHECHO/Desarrollos%20%20web/Prueba%20Final/index.html">Inicio</a>
+        <li><a href="HTML/educacion.html">Educación</a><br/></li>
+        <li><a href="HTML/experiencia.html">Experiencia</a></li>
+      </ul>
+    </nav>
+    <section>
+      <article>
+        <h2>Educación</h2>
+        <table border="1">
+          <tr>
+            <td>Año</td>
+            <td>Institución</td>
+            <td>Lugar</td>
+            <td>¿Culminó?</td>
+          </tr>
+          <tr>
+            <td>2008</td>
+            <td>Liceo Universidad de Medellín</td>
+            <td>Medellín</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2015</td>
+            <td>Universidad de Medellín</td>
+            <td>Medellín</td>
+            <td>Si</td>
+          </tr>
+        </table>
+      <article>
+        <h2>Agregar estudios</h2>
+        <form autocomplete="on" name="mi formulario" > </br>
+          <label>Año:</label>
+          <select>
+            <option>2016</option>
+            <option>2015</option>
+            <option>2014</option>
+            <option>2013</option>
+            <option>2012</option>
+            <option>2011</option>
+            <option>2010</option>
+            <option>2009</option>
+            <option>2008</option>
+            <option>2007</option>
+            <option>2006</option>
+            <option>2005</option>
+          </select><br/>
+          <label for="institucion">Institución</label><br/>
+          <input id="institucion"type="text" name="institucion" required placeholder="ej: Universida de Eafit"><br/><br/>
+          <label for="lugar">Lugar</label><br/>
+          <input id="lugar" type="text" name="lugar" required placeholder="ej: Medellín"><br/><br/>
+          <label for="culmino">Culminó</label><br/>
+          <b>Si</b> <input id="culmino" type="radio" name="culmino">
+          <b>No</b><input id="culmino" type="radio" name="culmino"><br/><br/>
+          <input id="enviar" type="submit" name="enviar">
+        </form>
+      </article>
+    </section>
+    <footer>
+      <h3>Contacto</h3>
+      <ul>
+        <li>Correo: jeffersondavid0610@gmail.com</li>
+        <li>Telefono: 2147036</li>
+        <li>Cel:3136286097</li>
+        <li>Direccón: Calle 49 N° 58-aa10 </li>
+      </ul>
+    </footer>
   </body>
 </html>
